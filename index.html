@@ -2,12 +2,20 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+
     <title>Manual Pad: Kagamitang Linguistic-Communicative sa Paglinang ng Kakayahan</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="title" content="Manual Pad: Kagamitang Linguistic-Communicative sa Paglinang ng Kakayahan">
+    <meta name="description" content="Manual Pad: Kagamitang Linguistic-Communicative sa Paglinang ng Kakayahan">
+    <!--<meta name="keywords" content="salinsik, salin, ingles, filipino, english, pilipino, pagsasalin">-->
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="Filipino">
+    <meta name="revisit-after" content="1 days">
+    <meta name="author" content="Allyza Anne Ramos">
+
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -17,13 +25,15 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/lightpeach.css" rel="stylesheet" />
+    
 </head>
 
-<body id="taas">
+<body id="top">
+    <button onclick="toTop()" id="btnTop" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-        <a class="navbar-brand js-scroll-trigger" href="#taas">
-            <h3 class="d-block mb-0">Manual Pad</h3>
+        <a class="navbar-brand js-scroll-trigger" href="#top">
+            <h3 class="d-block mb-0 text-white">Manual Pad</h3>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
@@ -43,7 +53,7 @@
         </div>
     </nav>
     <!-- Page Content-->
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0" data-bs-spy="scroll" data-bs-target="#sideNav" data-bs-offset="0" tabindex="0">
         <!-- Panimula-->
         <section class="resume-section vh-100" id="panimula">
             <div class="resume-section-content">
@@ -472,9 +482,11 @@
                                         <li class="list-group-item d-flex justify-content-between align-items-start">
                                             <div class="ms-2 me-auto">
                                                 <div class="fw-bold">Mga panuring (mga modifier)</div>
-                                                <b>Pang-uri (adjective) – </b>mga salitang nagbibigay-turing o naglalarawan sa pangngalan at panghalip.
+                                                <b>Pang-uri (adjective) – </b>mga salitang nagbibigay-turing o
+                                                naglalarawan sa pangngalan at panghalip.
                                                 <br>
-                                                <b>Pang-abay (adverb) – </b>mga salitang nagbibigay-turing o naglalarawan sa pandiwa, pang-uri at kapwa nito pang-abay.
+                                                <b>Pang-abay (adverb) – </b>mga salitang nagbibigay-turing o
+                                                naglalarawan sa pandiwa, pang-uri at kapwa nito pang-abay.
                                             </div>
                                         </li>
                                     </ol>
@@ -487,19 +499,24 @@
                                         <li class="list-group-item d-flex justify-content-between align-items-start">
                                             <div class="ms-2 me-auto">
                                                 <div class="fw-bold">Mga Pang-ugnay (Connectives)</div>
-                                                <b>Pangatnig (conjunction) - </b>mga salitang nag-uugnay ng dalawang salita, parirala o sugnay.
+                                                <b>Pangatnig (conjunction) - </b>mga salitang nag-uugnay ng dalawang
+                                                salita, parirala o sugnay.
                                                 <br>
-                                                <b>Pang-angkop (ligature) - </b>mga katagang nag-uugnay sa panuring at salitang tinuturingan.
+                                                <b>Pang-angkop (ligature) - </b>mga katagang nag-uugnay sa panuring at
+                                                salitang tinuturingan.
                                                 <br>
-                                                <b>Pang-ukol (preposition) - </b>mga salitang nag-uugnay sa isang pangngalan sa iba pang salita.
+                                                <b>Pang-ukol (preposition) - </b>mga salitang nag-uugnay sa isang
+                                                pangngalan sa iba pang salita.
                                             </div>
                                         </li>
                                         <li class="list-group-item d-flex justify-content-between align-items-start">
                                             <div class="ms-2 me-auto">
                                                 <div class="fw-bold">Mga Pananda (Markers)</div>
-                                                <b>Pantukoy (determiner) - </b>mga salitang laging nangunguna sa pangngalan o panghalip.
+                                                <b>Pantukoy (determiner) - </b>mga salitang laging nangunguna sa
+                                                pangngalan o panghalip.
                                                 <br>
-                                                <b>Pangawing o Pangawil (linking o copulative) - </b>salitang nagkakawing ng paksa (o simuno) at panaguri.
+                                                <b>Pangawing o Pangawil (linking o copulative) - </b>salitang
+                                                nagkakawing ng paksa (o simuno) at panaguri.
                                             </div>
                                         </li>
                                     </ol>
@@ -522,7 +539,8 @@
                                     <br>
                                     <b>• Panaguri</b>
                                     <br><br>
-                                    Sa Filipino, normal na karaniwan ang pagsasabi muna ng panaguri, kasunod ang paksa tulad nito.
+                                    Sa Filipino, normal na karaniwan ang pagsasabi muna ng panaguri, kasunod ang paksa
+                                    tulad nito.
                                     <br><br>
                                     <b>Kumakanta</b> si <b>Martin Nievera</b>
                                     <br>
@@ -535,8 +553,10 @@
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-start">
                                 <div class="ms-2 me-auto">
-                                    <div class="fw-bold">Magagamit na panaguri ng pangungusap ang iba't ibang bahagi ng pananalita,
-                                        kabilang ang nominal, pang-uri, pandiwa, at pang-abay, tulad ng mga sumusunod na halimbawa:
+                                    <div class="fw-bold">Magagamit na panaguri ng pangungusap ang iba't ibang bahagi ng
+                                        pananalita,
+                                        kabilang ang nominal, pang-uri, pandiwa, at pang-abay, tulad ng mga sumusunod na
+                                        halimbawa:
                                     </div>
                                     <br>
                                     <b>Pangungusap = Panaguri + Paksa </b>
@@ -566,7 +586,8 @@
                                             <div class="ms-2 me-auto">
                                                 <div class="fw-bold">Pandiwa</div>
                                                 <br><b>Walang komplemento - </b>Naglalaba + ang nanay
-                                                <br><b>May komplemento - </b>Naglilinis ng mesa sa kusina -ang nanay (actor, layon,
+                                                <br><b>May komplemento - </b>Naglilinis ng mesa sa kusina -ang nanay
+                                                (actor, layon,
                                                 taga-tanggap, ganapan atbp).
                                                 <br>
                                             </div>
@@ -585,10 +606,14 @@
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-start">
                                 <div class="ms-2 me-auto">
-                                    <div class="fw-bold">Magagamit na paksa (simuno, topic, pinag-uusapan, sentro, pokus ng usapan) sa
-                                        pangungusap ang mga pariralang nominal. Inihuhudyat ng nauunang pananda o marker ang (para sa
-                                        pangngalang pambalana), si/ sina (para sa mga tangi o personal na pangalan) ang paksa ng
-                                        pangungusap sa Filipino. Ginagamit ang ang sa anumang bahagi ng pananalita na ginawang nominal,
+                                    <div class="fw-bold">Magagamit na paksa (simuno, topic, pinag-uusapan, sentro, pokus
+                                        ng usapan) sa
+                                        pangungusap ang mga pariralang nominal. Inihuhudyat ng nauunang pananda o marker
+                                        ang (para sa
+                                        pangngalang pambalana), si/ sina (para sa mga tangi o personal na pangalan) ang
+                                        paksa ng
+                                        pangungusap sa Filipino. Ginagamit ang ang sa anumang bahagi ng pananalita na
+                                        ginawang nominal,
                                         maging ito ay pangngalan, pang-uri, pandiwa, o pang-abay.
                                     </div>
                                     <br>
@@ -604,8 +629,10 @@
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-start">
                                 <div class="ms-2 me-auto">
-                                    <div class="fw-bold">Sa mga pangungusap na verbal (kung saan pandiwa ang panaguri), nagiging pokus
-                                        ng pangungusap ang paksa pagkat nagkakaroon ng semantic na relasyon ang pandiwa sa paksa.
+                                    <div class="fw-bold">Sa mga pangungusap na verbal (kung saan pandiwa ang panaguri),
+                                        nagiging pokus
+                                        ng pangungusap ang paksa pagkat nagkakaroon ng semantic na relasyon ang pandiwa
+                                        sa paksa.
                                     </div>
                                     <br>
                                     <b>Halimbawa: </b>
@@ -613,21 +640,26 @@
                                     <b>Batayang Pangungusap (BP)</b>
                                     <br>Naglinis (ng mesa) ang nanay (sa kusina)
                                     <br><br>
-                                    Sa BP na ito, nakapokus sa actor/tagaganap (ang nanay) ang pangungusap, at mga komplemento ang "ng
-                                    mesa" (layon) "sa kusina" (ganapan). Sa pagbabago ng panlapi, pansining maipopokus ang iba't ibang
+                                    Sa BP na ito, nakapokus sa actor/tagaganap (ang nanay) ang pangungusap, at mga
+                                    komplemento ang "ng
+                                    mesa" (layon) "sa kusina" (ganapan). Sa pagbabago ng panlapi, pansining maipopokus
+                                    ang iba't ibang
                                     kompimento tulad ng sumusunod:
                                     <br><b>Pokus sa layon - </b>Nilinis ng nana 'yang mesa sa kusina.
                                     <br><b>Pokus sa ganapan - </b>Pinaglilinisan ng nanay ng mesa ang kusina.
                                     <br><b>Pokus sa sanhi - </b>Ikinapagod ng nanay ang paglilinis ng mesa sa kusina.
-                                    <br><b>Pokus sa instrument - </b>Ipinanlinis ng nanay ng mesa sa kusina ang tubig sa timba.
-                                    <br><b>Pokus sa direksyon - </b>Puntahan mo ang kusina na pinaglilinisan ng mesa ng nanay.
+                                    <br><b>Pokus sa instrument - </b>Ipinanlinis ng nanay ng mesa sa kusina ang tubig sa
+                                    timba.
+                                    <br><b>Pokus sa direksyon - </b>Puntahan mo ang kusina na pinaglilinisan ng mesa ng
+                                    nanay.
                                     <br>
                                     <br>
                                 </div>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-start">
                                 <div class="ms-2 me-auto">
-                                    <div class="fw-bold">Bukod pa sa batayang pangungusap, na binubuo ng kompletog panaguri at paksa,
+                                    <div class="fw-bold">Bukod pa sa batayang pangungusap, na binubuo ng kompletog
+                                        panaguri at paksa,
                                         mayroon pang ibang uri ng pangungusap sa wikang Filipino: </div>
                                     <ol class="list-group list-group-flush list-group-numbered">
                                         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -635,7 +667,8 @@
                                                 <div class="fw-bold">Mga Ayos ng Pangungusap</div>
                                                 <br><b>Karaniwan - </b>kung ang panaguri ay nauuna kaysa simuno.
                                                 <br>Halimbawa: Kumain ng yema cake si Jay.
-                                                <br><b>Di-Karaniwan - </b>kung ang simuno ang nauuna kaysa sa panaguri. Ang panandang
+                                                <br><b>Di-Karaniwan - </b>kung ang simuno ang nauuna kaysa sa panaguri.
+                                                Ang panandang
                                                 "ay" kadalasang makikita sa pangungusap na nasa di karaniwang ayos.
                                                 <br>Halimbawa: Si Jay ay kumain ng yema cake.
                                                 <br>
@@ -648,12 +681,15 @@
                                                 <br>(Binubuo ng panaguring pandiwa na may kasamang pang-abay)
                                                 <br>Halimbawa: Umuulan! Lilindol daw.
                                                 <br><b>Temporal - </b>nagsasaad ng kalagayan o panahong panandalian.
-                                                <br>(Binubuo ng pang-uri na may kasamang pang-abay) <br>Halimbawa: Mainit! Kay init ngayon.
+                                                <br>(Binubuo ng pang-uri na may kasamang pang-abay) <br>Halimbawa:
+                                                Mainit! Kay init ngayon.
                                                 <br><b>Eksistensiyal - </b>nagsasaad ng pagka-mayroon.
-                                                <br>Halimbawa: May mga mag-aaral na sa awditoryum., Alas diyes na., Lunes ngayon., Tag-araw., Bagong Taon na naman.
+                                                <br>Halimbawa: May mga mag-aaral na sa awditoryum., Alas diyes na.,
+                                                Lunes ngayon., Tag-araw., Bagong Taon na naman.
                                                 <br><b>Ka-pandiwa - </b>nagsasaad ng katatapos na kilos.
                                                 <br>Halimbawa: Kaaalis lang niya.
-                                                <br><b>Pambating panlipunan - </b>magagalang na pananalita ng pakikipagkapwa-tao.
+                                                <br><b>Pambating panlipunan - </b>magagalang na pananalita ng
+                                                pakikipagkapwa-tao.
                                                 <br>Halimbawa: Kumusta ka?, Salamat.
                                                 <br><b>Panawag - </b>panawag na pangkamag-anak.
                                                 <br>Halimbawa: Hoy!, Pssst!, Tena!, Manang!
@@ -687,7 +723,8 @@
                                     <br>
                                     <b>• Panaguri</b>
                                     <br><br>
-                                    Sa Filipino, normal na karaniwan ang pagsasabi muna ng panaguri, kasunod ang paksa tulad nito.
+                                    Sa Filipino, normal na karaniwan ang pagsasabi muna ng panaguri, kasunod ang paksa
+                                    tulad nito.
                                     <br><br>
                                     <b>Kumakanta</b> si <b>Martin Nievera</b>
                                     <br>
@@ -702,19 +739,22 @@
                                 <div class="ms-2 me-auto">
                                     <div class="fw-bold">Denotasyon
                                     </div>
-                                    Tumutukoy sa literal na pagpapakahulugan sa grupo ng mga salita o pangungusap. Ito ay ang kahulugang
+                                    Tumutukoy sa literal na pagpapakahulugan sa grupo ng mga salita o pangungusap. Ito
+                                    ay ang kahulugang
                                     matatagpuan sa diskyunaryo
                                     <br>
                                     <ol class="list-group list-group-flush list-group-numbered">
                                         <li class="list-group-item d-flex justify-content-between align-items-start">
                                             <div class="ms-2 me-auto">
                                                 <div class="fw-bold">Denotasyon</div>
-                                                Tumutukoy sa literal na pagpapakahulugan sa grupo ng mga salita o pangungusap. Ito ay
+                                                Tumutukoy sa literal na pagpapakahulugan sa grupo ng mga salita o
+                                                pangungusap. Ito ay
                                                 ang kahulugang
                                                 matatagpuan sa diskyunaryo
                                                 <br>
                                                 <br>Halimbawa: PASKO
-                                                <br>Denotasyon: Ika-25 ng Disyembre para sa mga kristiyano, araw na kapanganakan ni
+                                                <br>Denotasyon: Ika-25 ng Disyembre para sa mga kristiyano, araw na
+                                                kapanganakan ni
                                                 Kristo
                                                 <br>
                                             </div>
@@ -722,7 +762,8 @@
                                         <li class="list-group-item d-flex justify-content-between align-items-start">
                                             <div class="ms-2 me-auto">
                                                 <div class="fw-bold">Konotasyon</div>
-                                                Tumutukoy sa di-literal na pagpapakahulugan sa grupo ng mga salita o pangungusap.
+                                                Tumutukoy sa di-literal na pagpapakahulugan sa grupo ng mga salita o
+                                                pangungusap.
                                                 Ikalawang kahulugan na ikinakapit sa salita.
                                                 <br>
                                                 <br>Halimbawa: PASKO
@@ -744,13 +785,16 @@
                                                 <br>Halimbawa: mataas – mababa
                                                 <br>Maliwanag – madilim
                                                 <br>
-                                                <br><b>Polisemi - </b>mga salitang may dalawa o mahigit pang kahulugan na magka-ugnay.
+                                                <br><b>Polisemi - </b>mga salitang may dalawa o mahigit pang kahulugan
+                                                na magka-ugnay.
                                                 <br>Halimbawa: <b>marka</b>
                                                 <br>Mataas ang marka ng anak ko sa ingles.
                                                 <br>Nag-iwan ng marka ang kanyang kagat sa braso ng bata.
                                                 <br>
-                                                <br><b>Homofon - </b>salitang magkapareho ng tunog o anyo subalit magkaiba ang
-                                                kahulugan. Nagdudulot ng pagkalito o di kalinawan ang homofon sa pangungusap.
+                                                <br><b>Homofon - </b>salitang magkapareho ng tunog o anyo subalit
+                                                magkaiba ang
+                                                kahulugan. Nagdudulot ng pagkalito o di kalinawan ang homofon sa
+                                                pangungusap.
                                                 <br>Halimbawa: Bangka
                                                 <br>1. Mallit na sasakyang pandagat na yari sa kahoy
                                                 <br>2. Taong tagabigay ng baraha sa isang klase ng sugal
@@ -777,7 +821,9 @@
                 <h2 class="mb-5">Kakayahang Komunikatibo</h2>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <div class="subheading mb-3">Kung kahulugang komunikatibo ang susuriin sa isang pahayag, tiyak na iuugnay ito sa tungkulin ng komunikasyon at ang kaugnay na gawi ng pagsasalita tulad ng ipinakita ng sumusunod na tsart ni Gordon Wells.</div>
+                        <div class="subheading mb-3">Kung kahulugang komunikatibo ang susuriin sa isang pahayag, tiyak
+                            na iuugnay ito sa tungkulin ng komunikasyon at ang kaugnay na gawi ng pagsasalita tulad ng
+                            ipinakita ng sumusunod na tsart ni Gordon Wells.</div>
 
                         <div class="table-responsive">
                             <table class="table table-hover">
@@ -790,19 +836,23 @@
                                 <tbody>
                                     <tr>
                                         <td>A. Pagkontrol sa kilos o gawi ng iba (Controlling Function)</td>
-                                        <td>Pakikiusap, pag-utos, pagmumungkahi, pagpupunyagi, pagtanggi, pagbibigay babala.</td>
+                                        <td>Pakikiusap, pag-utos, pagmumungkahi, pagpupunyagi, pagtanggi, pagbibigay
+                                            babala.</td>
                                     </tr>
                                     <tr>
                                         <td>B. Pagbabahagi ng damdamin (Sharing Feelings)</td>
-                                        <td>Pakikiramay, pagpuri, pagsang-ayon, pahayag, paglibak, paninisi, pagsalungat.</td>
+                                        <td>Pakikiramay, pagpuri, pagsang-ayon, pahayag, paglibak, paninisi,
+                                            pagsalungat.</td>
                                     </tr>
                                     <tr>
                                         <td>C. Pagbibigay o pagkuha ng impormasyon (Getting factual information)</td>
                                         <td>Pag-uulat, pagpapaliwanag pagtukoy, pagtatanong, pagsagot.</td>
                                     </tr>
                                     <tr>
-                                        <td>D. Pagpapanatili sa pakikipag-kapuwa at pagkakaroon ng interaksyon sa kapuwa (Ritualizing Function)</td>
-                                        <td>Pagbati, pagpapakilala, pagbibiro, pagpapasalamat, paghingi ng paumanhin.</td>
+                                        <td>D. Pagpapanatili sa pakikipag-kapuwa at pagkakaroon ng interaksyon sa kapuwa
+                                            (Ritualizing Function)</td>
+                                        <td>Pagbati, pagpapakilala, pagbibiro, pagpapasalamat, paghingi ng paumanhin.
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>E. Pangangarap at paglikha (Imagining/Creating Function)</td>
@@ -816,46 +866,544 @@
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">Ponolohiya</h3>
-                        <div class="subheading mb-3">patern o kumbinasyon ng mga tunog sa loob ng isang wika</div>
+                        <h3 class="mb-0">TEORYANG ISKEMA</h3>
+                        <div class="subheading mb-3">Nagpapaliwanag na ang lahat ng ating kaalaman tungkol sa mga
+                            bagay-bagay ay napapangkat sa dalawa.</div>
                         <ol class="list-group list-group-numbered">
                             <li class="list-group-item d-flex justify-content-between align-items-start">
                                 <div class="ms-2 me-auto">
-                                    <div class="fw-bold">Subheading</div>
-                                    Cras justo odio
+                                    <div class="fw-bold">Ayon sa dating kaalaman at karanasan na nagsisilbing saligan ng
+                                        kaalaman ng mambabasa.</div>
                                 </div>
-                                <span class="badge bg-primary rounded-pill">14</span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-start">
                                 <div class="ms-2 me-auto">
-                                    <div class="fw-bold">Subheading</div>
-                                    Cras justo odio
-                                </div>
-                                <span class="badge bg-primary rounded-pill">14</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-start">
-                                <div class="ms-2 me-auto">
-                                    <div class="fw-bold">Subheading</div>
-                                    Cras justo odio
-                                </div>
-                                <span class="badge bg-primary rounded-pill">14</span>
+                                    <div class="fw-bold">Ayon sa kayariang balangkas ng dating kaalaman na tinatawag na
+                                        iskemata.</div>
                             </li>
                         </ol>
                     </div>
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">Kakayahang Komunikatibo</h3>
-                        <div class="subheading mb-3">Communicative Competence</div>
-                        <p>Kakayahang maunawaan at magamit ang mga pangungusap na may wastong pambalarilang kayarian sa
-                            angkop na panlipunang kapaligiran ayon sa hinihingi ng sitwasyon; tinatawag itong kakayahang
-                            komunikatibo o communicative competence.</p>
+                        <h3 class="mb-0">INTERAKTIB NA PROSESO</h3>
+                        <div class="subheading mb-3">Ito ay kumbinasyon ng bottom-up at top-down na pagbasa. Isang
+                            proseso na gumagamit ng iba't ibang pamamaraan upang lubusang maunawaan ang teksto.</div>
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Teoryang Bottom-up</div>
+                                    Tradisyunal na pananaw sa pagbasa na bunga ng impluwensiya ng teoryang behaviorist
+                                    na binibigyang pakus ang kapaligiran sa paglinang ng pag-unawa sa pagbasa. Ang
+                                    pag-unawa sa teksto ay batay sa salita, pangungusap, larawan, dayagram, at iba pa.
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Teoryang Top-down</div>
+                                    Tinatawag ding inside-out o conceptually driven sa dahilang ang kahulugan o
+                                    impormasyon ay nagsisimula sa mambabasa patungo sa teksto.
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">METAKOGNITIB NA PAGBASA</h3>
+                        <div class="subheading mb-3">Ang pag-unawa sa salita ay nakapaloob sa dalawang mahahalagang
+                            kasanayan:</div>
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Decoding</div>
+                                    Kinikilala ang mga salitang binabasa at binibigyan ng kaukulang kahulugan.
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Encoding</div>
+                                    Ang tekstong binass at inuunawa ay inaayos at binibigyang anyo
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">MGA PARAAN NG PAGBASA</h3>
+
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Scanning</div>
+                                    Pagbasa nang mabilisan
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Skimming</div>
+                                    Pagbasa ng pasaklaw upang makuha ang pangkahalatang ideya o impresyon.
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Previewing</div>
+                                    Pagbasa na hindi agad nakatuon ang pansin sa nilalaman ng akdang babasahin. Bagkus,
+                                    sinusuri muna ang pangkalahatang kaanyuan ng akda
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Kaswal</div>
+                                    Pagbasa ng pansamantala
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Pagbasang Pang-impormasyon</div>
+                                    Ang layunin ng pagbasang ito ay upang kumalap ng mahahalagang impormasyon.
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Matiim na Pagbasa</div>
+                                    Nangangailangan ito ng maingat na pagbasa na may layuning maunawaan ng Mabuti ang
+                                    binabasa para matugunan ang pangangailangan sa pananaliksik, atpb.
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Muling Pagbasa</div>
+                                    Isinasagawa ang muling pagbasa upang makabuo ng pag-unawa sa kabuuang diwang
+                                    materyal na binasa
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Pagtatala</div>
+                                    Pagbabasa na may kasamang pagtatala ng mahahalagang impormasyon upang ito ay
+                                    madaling maunawaan
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">MGA PARAAN SA AKADEMIKONG PAGSULAT</h3>
+
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Buod o synopsis</div>
+                                    Isang uri ng pinalling bersyon ng isang teksto. Taglay nito ang mga pangunahing
+                                    ideya ng teksto na may bahagyang pagdedetalye upang mabigyan ng pangkalahatang ideya
+                                    ang nagbabasa sa tinatalakay na paksa.
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Tuwirang Sipi</div>
+                                    Pinakamadaling pagtatala-pagkopya ng ideya-ipaloob sa panipi ang sipi. Gamitan ng
+                                    ellipsis (…) kung may kahabaan ang tuwirang sipi.
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Presis</div>
+                                    Maayos at nauunawaang pahayag ng isang orihinal na nagpapanatili sa pangunahing
+                                    kaisipan, kayarian o balangkas, pananaw ng awtor at nasusulat ayon sa himig ng
+                                    orihinal
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Hawig o paraphrase</div>
+                                    Isang hustong paglalahad ng mga ideyang gamit ang higit na payak na salita ng
+                                    nagbabasa-kaiba ang presis sa hawig sa dahilang ang presis ay paglalahad ng
+                                    kahulugan ng orihinal sa higit n maikli at higit na malinaw na paraan.
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Pagsasalin sa Filipino mula sa Ingles o iba pang wika</div>
+                                    Paglilipat ng ideya mula sa isang wika (source language) tungo sa isa pang wika
+                                    (target language).
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Pagbabalangkas</div>
+                                    Pagbuo ng sistematikong paghahanay ng mga ideya upang malinaw ang kanilang ugnayan
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">MGA URI NG PAKIKINIG</h3>
+
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Pasiv o Marginal</div>
+                                    Ang pinakikinggan ay di gaanong napatutuunan ng pansin (nakikinig sa radio habang
+                                    nagaaral)
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Atentiv</div>
+                                    Taimtim at puno ng konsentrasyon (habang nakikinig sa guro)
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Analitikal</div>
+                                    Pahusgang pakikinig, magbigay ng reaksyon
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Kritikal</div>
+                                    Mapanuring pakikinig pagkumumpara sa labng napakinggan
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Apresyativ</div>
+                                    Mapagpahalagang pakikinig
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">MGA PANANDANG DISKURSO</h3>
+
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Enumerasyon</div>
+                                    Kung ang layunin ng awtor ay patunayan o papaniwalain ang mambabasa sa isang
+                                    kaisipan pangyayari, kadalasan ay bumabanggit ang wator ng maraming katibayan o
+                                    edibensya na magbibigay-linaw sa kanyang sinasabi.
+                                    <br>Ilan sa madalas na gamiting mga panandang diskurso so enumerasyon ay ang mga
+                                    sumusunod ang mga sumusunod, kabilang dito/sa mga, Ilan sa mgo, ang mga halimbawa,
+                                    at iba pa.
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Order o Pagkakasunud-sunod</div>
+                                    Kung layunin ng awtor ay makapagturo o maibahagi sa mambabasa an isang proseso.
+                                    <br>Ilan sa mga panandang diskurso na ginagamit sa order o pagkakasunud-sunod ay ang
+                                    mga sumusunod ang mga hakbang/paraan ay, ganito ang dapat gawin, sinisimulan ito sa
+                                    ang susunod ay, at iba pa.
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Komparison At Kontras</div>
+                                    Kung ang layunin ng awtor ay maipakita o maibahagi sa mambabasa ang pagkakatulad o
+                                    pagkakaiba ng mga isyu, upang matimbang-timbang ang kawastuhan ng mga ito, gumagamit
+                                    siya ng mga panandang diskurso para sa comparison at kontras.
+                                    <br>Ilan sa mga malimit na gamiting panandang diskurso sa comparison at kontras ay
+                                    ang mga sumusunod gaya/katulad/kapareho ng, magkatulad, magkapareca ang,
+                                    ganundin/gayundin, salungat/kontra so, kaiba, at iba pa.
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Sanhi at Bunga</div>
+                                    Kung ang layunin naman ng awtor ay ang maipakita ang mga dahilan at kaya ay resulta
+                                    isang aksyon, paniniwala, o pangyayari.
+                                    <br>Ilan sa mga panandang diskurso na ginagamit sa sanhi at bungo ay ang mga
+                                    sumusunod: dahil sa/ ang dahilan ay, sanhi, kaya, bunga nito, at iba pa.
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">WASTONG GAMIT NG MGA SALITA</h3>
+                        <div class="subheading mb-3">Sa pagsasalita at pagsulat ang wastong paggamit ng mga salita
+                            karaniwan ay lubhang
+                            kailangan. Kailangan sumusunod it sa mga alituntuning pang-gramatika. Nakatutulong sa
+                            maayos, malinaw at
+                            mabisang pagpapahayag kung wasto ang gamit ng mga salitang Filipino.</div>
+
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">NG at NANG</div>
+                                    <br>Gamit ng NG
+                                    <br>
+                                    <ol class="list-group list-group-flush list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Ginagamit bilang pantukoy</div>
+                                                Halimbawa: Nag-aaral ng Espanyol si Peter.
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Ginagamit bilang pang-ukkol na ang katumbas sa
+                                                    Ingles ay WITH
+                                                </div>
+                                                Halimbawa: Pinalo niya ng mahabang kahoy ang aso.
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Ginagamit bilang pang-ukol na ang katumbas ay SA
+                                                </div>
+                                                Halimbawa: Magsisitungo ng Tagaytay ang mga turista.
+                                            </div>
+                                        </li>
+                                    </ol>
+                                    <br>
+                                    <br>Gamit ng NANG
+                                    <br>
+                                    <ol class="list-group list-group-flush list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Ginagamit na cangatnig sa hugnayan pangungusap
+                                                    bilang panimula ng katulong na sugnay, a sugnay na di makapag-iisa.
+                                                </div>
+                                                Halimbawa: Nang siya'y umalis, ako'y natutulog pa.
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Ginagamit bilang pang-abay na nanggaling sa "na" na
+                                                    inangkupan ng "ng" kaya’t nagiging "nang".
+                                                </div>
+                                                Halimbawa: Nagsalita nang malumanay ang guro sa Filipino
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">MAY at MAYROON</div>
+                                    <br>Gamit ng MAY
+                                    <br>Ginagamit ang may kung ang sumusunod na salita ay:
+                                    <br>
+                                    <ol class="list-group list-group-flush list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">pangalan</div>
+                                                Halimbawa: May taong masipag.
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">pandiwa</div>
+                                                Halimbawa: May aalis na marino mamayang gabi.
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">pang-uri</div>
+                                                Halimbawa: May lumang bahay na nasunog.
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">panghalip na paari</div>
+                                                Halimbawa: May kanya-kanya tayong gawi.
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">pantukoy ng mga</div>
+                                                Halimbawa: May mga magarang damit ang mga bagong dating mula sa Italya.
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">pang-ukol na sa</div>
+                                                Halimbawa: May so-polos ang taong iyan.
+                                            </div>
+                                        </li>
+
+                                    </ol>
+                                    <br>
+                                    <br>Gamit ng MAYROON
+                                    <br>
+                                    <ol class="list-group list-group-flush list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Sinusundan ng panghali na palagyo</div>
+                                                Mayroon <b>silang</b> dadaluhang pagtitipon sa susunod na araw.
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Sinusundan ng isang kataga</div>
+                                                Mayroon <b>ding</b> palatuntunan sa Linggo ng Wika.
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Ginagamitan sa patalinghagang kahulugan</div>
+                                                Si Don Elizalde ang <b>mayroon</b> sa kanilang lugar.
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">KUNG at KONG</div>
+                                    <br>Gamit ng KUNG
+                                    <br>
+                                    <ol class="list-group list-group-flush list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Ginagamit na pangatnig sa mga sugnay na di
+                                                    makapag-lisa sa mga pangungusap na
+                                                    hugnayan</div>
+                                                Halimbawa: Kung siya'y narito, tayo'y magiging masaya.
+                                            </div>
+                                        </li>
+                                    </ol>
+                                    <br>
+                                    <br>Gamit ng KONG
+                                    <br>
+                                    <ol class="list-group list-group-flush list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Buhat sa panghalip na ko ang kong at nilalagyan
+                                                    lamang ng pang-angkop na ng sa
+                                                    pakikilugnay na salitang sumusunod</div>
+                                                Halimbawa: Ipinagtapat kong nangyari..
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">DIN at RIN/ DAW at RAW/DOON at ROON</div>
+                                    <br>Gamit ng din, daw, doon
+                                    <br>
+                                    <ol class="list-group list-group-flush list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Ginagamit kapag ang nauunang salita ay nagtatapos
+                                                    sa katinig maliban sa w at y
+                                                </div>
+                                                Halimbawa: Sumikat din ang araw.
+                                                <br>Sumikat daw ang araw.
+                                                <br>Sumikat doon ang araw..
+                                            </div>
+                                        </li>
+                                    </ol>
+                                    <br>
+                                    <br>Gamit ng rin, raw, roon
+                                    <br>
+                                    <ol class="list-group list-group-flush list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Ginagamit kapag ang nauunang salita ay nagtatapos
+                                                    sa patinig. Ang w at y ay
+                                                    itinututing na malapatinig. samakatuwid ang rin, raw, roon ay siyang
+                                                    ginagamit kapag ang
+                                                    sinusundang salita ay nagtatapos sa mga titik na ito.</div>
+                                                Halimbawa: Wala rin ang kapatid ko sa bahay
+                                                <br>Wala raw ang kapatid ko sa bahay.
+                                                <br>Wala roon ang kapatid ko sa bahay.
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">IKA at IKA-</div>
+                                    <br>Gamit ng IKA
+                                    <br>
+                                    <ol class="list-group list-group-flush list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Gingamit bilang panlapi sa bilang na isinusulat
+                                                    bilang salita</div>
+                                                Halimbawa: ikatlong taon
+                                                <br>ikaapat na araw.
+                                            </div>
+                                        </li>
+                                    </ol>
+                                    <br>
+                                    <br>Gamit ng IKA-
+                                    <br>
+                                    <ol class="list-group list-group-flush list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Ginagamit ang ginitlingan na "ika" bilang panlapi
+                                                    kung mismong bilang ang isusulat</div>
+                                                Halimbawa: ika-21 ng Febrero
+                                                <br>ika-3 taon.
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">MAKA at MAKA-</div>
+                                    <br>Gamit ng MAKA
+                                    <br>
+                                    <ol class="list-group list-group-flush list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Ginagamit ang "maka” na walang gitling kung
+                                                    pangngalang pambalana ang kasunod na salita</div>
+                                                Halimbawa: naglunsad na naman ng kilos protesta ang mga makamasa.
+                                                <br>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                    <br>
+                                    <br>Gamit ng MAKA-
+                                    <br>
+                                    <ol class="list-group list-group-flush list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Ginagamit ang may gitling na "maka-" kapag
+                                                    sinusundan ng pangngalang pantangi</div>
+                                                Halimbawa: Maka-Erap lagi na ang pasimuno sa kilos protesta.
+                                                <br>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">GAWIN at GAWAN</div>
+                                    <br>Gamit ng GAWIN
+                                    <br>
+                                    <ol class="list-group list-group-flush list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Ginagamit ang mga panlapi -in/ -hin sa mga
+                                                    pandiwang pokus sa layon</div>
+                                                Halimbawa: Gawin mo ang inaakala mong makikinabang ang lahat.
+                                                <br>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                    <br>
+                                    <br>Gamit ng GAWAN
+                                    <br>
+                                    <ol class="list-group list-group-flush list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Ginagamit ang panlaping -an/ -han sa mga pandiwang
+                                                    pokus sa direksyon.</div>
+                                                Halimbawa: Huwag mong gawan ng masama ang kapwa mo.
+                                                <br>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </li>
+                        </ol>
+
                     </div>
                 </div>
             </div>
         </section>
-
     </div>
+    <footer class="py-4 bg-secondary">
+        <div class="container-fluid">
+            <p class="m-0 text-center text-white"><a href="https://www.facebook.com/allyza.ramos.3">Allyza Anne Ramos</a></p>
+        </div>
+    </footer>
+
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
